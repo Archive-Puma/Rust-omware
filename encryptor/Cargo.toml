@@ -1,0 +1,12 @@
+[package]
+name = "rustomware-encrypt"
+version = "0.1.0"
+authors = ["Kike Fontan (@CosasDePuma)"]
+edition = "2018"
+
+[dependencies]
+dirs = "2.0"
+rand = "0.7.3"
+walkdir = "2.3.1"
+aes-stream = "0.2.1"
+rust-crypto = "0.2.36"
